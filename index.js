@@ -1,4 +1,5 @@
-import express from "express";
+require("./config/dbConnection");
+const express = require("express");
 
 const app = express();
 
